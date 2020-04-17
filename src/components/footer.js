@@ -41,7 +41,7 @@ class Footer extends React.Component {
             </div>
             <div className="footer-bottom social-right-menu ">
               <div className="site-info">
-                ©2020 AIR IT SERVICE. All rights reserved.
+                © 2020 AIR IT SERVICE
               </div>
             </div>
           </div>
