@@ -149,13 +149,13 @@ const IndexPage = data => (
     <Banner BannerData={data.data.allContentfulHeaderBanner.edges} />
     <div className="container">
       <div className="text-center">
-        <h2 className="with-underline">Barang Favorit</h2>
+        <h2 className="with-underline">Barang Favorit <span role="img" aria-label="Sparkling-heart">💖</span></h2>
       </div>
       <IndexPost data={data} />
     </div>
     <div className="container">
       <div className="text-center">
-        <h2 className="with-underline">Kategori Pilihan</h2>
+        <h2 className="with-underline">Kategori Pilihan <span role="img" aria-label="Shopping-cart">🛒</span></h2>
       </div>
       <CategoriesPost data={data} />
     </div>
@@ -166,7 +166,7 @@ const IndexPage = data => (
          atau ingin Cash on Delivery?
         </p>
         <p><strong>Langsung saja Hubungi Kontak kami dibawah ini!</strong>.</p>
-        <Link to="/contact" className="with-underline">
+        <Link to="/kontak" className="with-underline">
           Kontak kami
         </Link>
       </div>
