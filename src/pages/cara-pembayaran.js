@@ -13,6 +13,12 @@ class About extends React.Component {
             <div className="row">
               <div className="col-sm-12">
                 <h1>Cara Pembayaran</h1>
+                <div class="col-sm-6">
+                  <img src="https://arthakirana.com/wp-content/uploads/2013/05/bca-customer-artha-kirana-flycatcher-pest-control.png" alt="BCA" />
+                  <h3>No Rekening: 6300-270-857</h3>
+                  <h4>Atas Nama: M IQBAL ARYO ANGGORO</h4>
+                </div>
+                <hr />
                 <div> 
                 <h2>Pembayaran melalui Bank BCA</h2>
                   <p>
