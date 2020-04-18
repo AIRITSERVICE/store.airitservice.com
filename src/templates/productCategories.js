@@ -6,7 +6,6 @@ import SEO from "../components/seo"
 import StarRatingComponent from "react-star-rating-component"
 import { graphql } from "gatsby"
 
-const contactPhone = "088291046883";
 
 const ProductCategory = data => (
   <Layout>
@@ -45,7 +44,7 @@ const ProductCategory = data => (
 
                   <div className="col-sm-12 text-right align-self-center">
                     <a                      
-                      href={`https://wa.me/${contactPhone}`}
+                      href={`/cara-pembayaran`}
                       className="Product snipcart-add-item"
                       target="_blank"
                       rel="noopener noreferrer"

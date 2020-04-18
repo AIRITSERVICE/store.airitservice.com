@@ -70,7 +70,7 @@ class IndexPost extends React.Component {
 
                       <div className="col-sm-12 text-right align-self-center">
                         <a
-                          href={`https://wa.me/${this.state.contactPhone}`}
+                          href={`/cara-pembayaran`}
                           className="Product snipcart-add-item"
                           target="_blank"
                            rel="noopener noreferrer"
