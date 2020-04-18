@@ -19,7 +19,7 @@ const Countdown = ({ data }) =>  {
                 <i className="fas fa-clock" /> {date}
               </strong>
             </span>
-            <Link to="/product">Buy Now!</Link>
+            <Link to="/produk">Buy Now!</Link>
           </div>
         </div>
       </div>

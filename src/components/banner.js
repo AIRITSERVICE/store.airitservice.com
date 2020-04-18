@@ -25,7 +25,7 @@ const Banner = ({ BannerData }) => {
                 <div>
                   <span className="sub-title">{items.node.subHeading}</span>
                   <h1>{items.node.title}</h1>
-                  <Link to="/product">Shop Now!</Link>
+                  <Link to="/produk">Shop Now!</Link>
                 </div>
               </div>
             </div>
