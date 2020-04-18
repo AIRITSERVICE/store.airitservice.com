@@ -5,8 +5,6 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import { graphql } from "gatsby";
 
-const contactPhone = "088291046883";
-
 const ProductDetails = data => (
   <Layout>
     <SEO
@@ -53,7 +51,7 @@ const ProductDetails = data => (
           </div>*/}
           <div className="col-sm-10 text-left">
             <a
-              href={`https://wa.me/${contactPhone}`}
+              href={`/cara-pembayaran`}
               className="Product snipcart-add-item"
               target="_blank"
               rel="noopener noreferrer"

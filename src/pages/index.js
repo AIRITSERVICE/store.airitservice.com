@@ -19,7 +19,6 @@ class CategoriesPost extends React.Component {
 
   render() {
     const { data } = this.props
-    const { contactPhone } = this.state
 
     return (
       <Fragment>
@@ -35,34 +34,10 @@ class CategoriesPost extends React.Component {
                 ) : (
                   <Img sizes={items.node.image.fluid} />
                 )}
-
                 <div className="details_inner">
                   <h2>
                     <Link to={`/${items.node.slug}`}>{items.node.name}</Link>
                   </h2>
-                  
-                  <div className="row">
-
-                    <div className="col-sm-12 text-right align-self-center">
-                      <a                      
-                        href={`https://wa.me/${contactPhone}`}
-                        className="Product snipcart-add-item"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        data-item-id={items.node.slug}
-                        data-item-image={
-                          items.node.image === null
-                            ? ""
-                            : items.node.image.fluid.src
-                        }
-                        data-item-name={items.node.name}
-                        data-item-url={`/`}
-                      >
-                        <i className="fas fa-shopping-bag" />
-                        Beli
-                      </a>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -83,7 +58,6 @@ class IndexPost extends React.Component {
 
   render() {
     const { data } = this.props
-    const { contactPhone } = this.state
 
     return (
       <Fragment>
@@ -114,7 +88,7 @@ class IndexPost extends React.Component {
 
                     <div className="col-sm-12 text-right align-self-center">
                       <a                      
-                        href={`https://wa.me/${contactPhone}`}
+                        href={`/cara-pembayaran`}
                         className="Product snipcart-add-item"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -159,7 +133,7 @@ const IndexPage = data => (
       </div>
       <CategoriesPost data={data} />
     </div>
-    <div className="container">
+    {/* <div className="container">
       <div className="text-center">
         <h2 className="with-underline">Ingin mendapatkan free ongkir?</h2>
         <p>
@@ -170,7 +144,7 @@ const IndexPage = data => (
           Kontak kami
         </Link>
       </div>
-    </div>
+    </div> */}
     <Countdown data={data.data.contentfulDealCountDown} />
   </Layout>
 )
