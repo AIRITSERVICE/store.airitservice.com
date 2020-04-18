@@ -48,11 +48,6 @@ const Header = ({ siteTitle }) => (
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/cara-pembayaran">
-                Cara Pembayaran
-                </Link>
-              </li>
-              <li className="nav-item">
                 <Link className="nav-link" to="/kontak">
                   Kontak
                 </Link>
