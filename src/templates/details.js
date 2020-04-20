@@ -65,7 +65,7 @@ const ProductDetails = data => (
               data-item-name={data.data.contentfulProduct.name}
               data-item-url={`/`}
             >
-              <i className="fas fa-tags" />
+              <i className="fas fa-shopping-bag" />
               Beli
             </a>
           </div>
