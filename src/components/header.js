@@ -64,7 +64,7 @@ const Header = ({ siteTitle }) => (
           </nav>
         </div>
       </div>
-    <div className="row Header__product-categories__container">
+    {/* <div className="row Header__product-categories__container">
         <div className="col-sm-12 col-md-12 align-self-center">
           <nav>
             <ul className="navbar-nav mr-auto Header__product-categories__menu">
@@ -80,7 +80,7 @@ const Header = ({ siteTitle }) => (
             </ul>
           </nav>
         </div>
-    </div>
+    </div> */}
     </div>
   </header>
     )}
