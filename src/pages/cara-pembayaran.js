@@ -37,13 +37,6 @@ class About extends React.Component {
                   </ol>
                   </p>
                 </div>
-
-                <h2>Pembayaran melalui Tokopedia</h2>
-                  <p>
-                  <ol>
-                  <li>TBA (TO BE ANNOUNCED)</li>
-                  </ol>
-                  </p>
                  <h2>Pembayaran melalui Cash on Delivery</h2>
                  <p>
                   <ol>
