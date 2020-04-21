@@ -127,6 +127,13 @@ ul.latest-blog li .inner a{position:absolute;left:0;right:0;top:0;bottom:0;z-ind
 .Contact-us form label{width:100%;}
 .Contact-us form>div{margin-bottom:30px;}
 .Contact-us form>div button{width:120px;height:50px;background:#333;color:#fff;border:1px solid #333;}
+.Checkout{margin:40px 0;}
+.Checkout form{}
+.Checkout form input{width:100%;height:40px;}
+.Checkout form textarea{width:100%;height:100px;}
+.Checkout form label{width:100%;}
+.Checkout form>div{margin-bottom:30px;}
+.Checkout form>div button{width:120px;height:50px;background:#333;color:#fff;border:1px solid #333;}
 .blogs-page{background:#fafafa;width:100%;display:inline-block;}
 .blogs-page .post-details{background:#fff;padding:30px 30px;margin:30px 0;box-sizing:border-box;}
 .blogs-page .post-thumbnail{position:relative;}
