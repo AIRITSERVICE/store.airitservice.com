@@ -12,7 +12,7 @@ class Checkout extends Component {
             {/* To make form work, use your own formspree credentials in action="" */}
             <form
               method="POST"
-              name="contact"
+              name="Checkout"
               action="/sukses" 
               data-netlify="true"
               data-netlify-honeypot="bot-field"
@@ -30,15 +30,15 @@ class Checkout extends Component {
               </div>
               <div>
                 <label>Nomor Telpon:
-                <input type="text" name="name" /></label>
+                <input type="text" name="number" /></label>
               </div>
               <div>
                 <label>Kode/Produk Yang ingin dibeli:
-                <input type="text" name="name" /></label>
+                <input type="text" name="code" /></label>
               </div>
               <div>
                 <label>Alamat Lengkap: 
-                <textarea name="message" /></label>
+                <textarea type="text" name="address" /></label>
               </div>
               <div>
                 <button type="submit">Kirim</button>
