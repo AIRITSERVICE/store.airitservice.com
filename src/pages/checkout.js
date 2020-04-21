@@ -12,7 +12,7 @@ class Checkout extends Component {
             {/* To make form work, use your own formspree credentials in action="" */}
             <form
               method="POST"
-              name="Checkout"
+              name="checkout"
               action="/sukses" 
               data-netlify="true"
               data-netlify-honeypot="bot-field"
