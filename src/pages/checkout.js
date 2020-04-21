@@ -19,6 +19,7 @@ class Checkout extends Component {
               type="file"
               netlify
             >
+            <input type="hidden" name="bot-field" />  <input type="hidden" name="form-name" value="checkout" />
               <div>
                 <label>Nama Anda:
                 <input type="text" name="name" /></label>
