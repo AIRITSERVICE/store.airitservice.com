@@ -14,7 +14,6 @@ const ProductDetails = data => (
     <div className="container details-page">
       <div className="product-details">
         <div>
-          <h2>{data.data.contentfulProduct.name}</h2>
         </div>
         <div className="Product-Screenshot">
           {data.data.contentfulProduct.productMorePhotos === null ? (
@@ -37,6 +36,7 @@ const ProductDetails = data => (
               </TabList>
             </Tabs>
           )}
+        <h2>{data.data.contentfulProduct.name}</h2>
         </div>
         <StarRatingComponent
           name="rate1"
@@ -51,7 +51,7 @@ const ProductDetails = data => (
           </div>*/}
           <div className="col-sm-10 text-left">
             <a
-              href={`/cara-pembayaran`}
+              href={`/checkout`}
               className="Product snipcart-add-item"
               target="_blank"
               rel="noopener noreferrer"
