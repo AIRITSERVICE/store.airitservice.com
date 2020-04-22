@@ -83,9 +83,19 @@ class IndexPost extends React.Component {
                           data-item-url={`/`}
                           onClick={this.handleProductClick}
                         >
-                          <i className="fas fa-shopping-bag" />
+                          <i className="fas fa-shopping-cart" />
                           Beli
                         </a>
+                        &nbsp;
+                      <a                  
+                        href={`/cara-pembayaran`}
+                        className="Product method-payment"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fas fa-shopping-bag" />
+                        Cara Pembayaran
+                      </a>
                       </div>
                     </div>
                   </div>

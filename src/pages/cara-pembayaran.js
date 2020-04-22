@@ -23,15 +23,17 @@ class About extends React.Component {
                 <h2>Pembayaran melalui Bank BCA</h2>
                   <p>
                   <ol>
+                  <li>Silahkan konfirmasi stok terlebih dahulu, Melalui Whatsapp,Line,Instagram</li>
+
                   <li>Pilih barang yang anda ingin beli!</li>
 
                   <li>Klik tombol Beli</li>
 
-                  <li>Pilih pembayaran melalui Bank BCA</li>
+                  <li>Isi Form Checkout</li>
 
                   <li>Transfer transaksi sesuai Harga</li>
 
-                  <li>Kirim Bukti Pembayaran melalui Whatsapp/Line </li>
+                  <li>Kirim Bukti Pembayaran melalui Whatsapp/Line</li>
 
                   <li>Barang akan segera Di proses</li>
                   </ol>

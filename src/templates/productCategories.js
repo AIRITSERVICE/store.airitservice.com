@@ -57,9 +57,19 @@ const ProductCategory = data => (
                       data-item-name={items.node.name}
                       data-item-url={`/`}
                     >
-                      <i className="fas fa-shopping-bag" />
+                      <i className="fas fa-shopping-cart" />
                       Beli
                     </a>
+                    &nbsp;
+                    <a                  
+                      href={`/cara-pembayaran`}
+                      className="Product method-payment"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >
+                      <i className="fas fa-shopping-bag" />
+                      Cara Pembayaran
+                      </a>
                   </div>
                 </div>
               </div>

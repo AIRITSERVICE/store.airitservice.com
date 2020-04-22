@@ -79,9 +79,26 @@ class IndexPost extends React.Component {
                   </h2>
                   {/* <p>{items.node.details.childMarkdownRemark.excerpt}</p> */}
                   <div className="row">
-                    <div className="col-sm-4 align-self-center">
-                    </div>
-                    <div className="col-sm-12 text-right align-self-center">
+                    <div className="col-sm-12 align-self-center">
+                    <a                  
+                        href={`/cara-pembayaran`}
+                        className="Product method-payment"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        data-item-id={items.node.slug}
+                        data-item-price={items.node.price}
+                        data-item-image={
+                          items.node.image === null
+                            ? ""
+                            : items.node.image.fluid.src
+                        }
+                        data-item-name={items.node.name}
+                        data-item-url={`/`}
+                      >
+                        <i className="fas fa-shopping-bag" />
+                        Cara Pembayaran
+                      </a>
+                      &nbsp;
                       <a                  
                         href={`/checkout`}
                         className="Product snipcart-add-item"
@@ -97,7 +114,7 @@ class IndexPost extends React.Component {
                         data-item-name={items.node.name}
                         data-item-url={`/`}
                       >
-                        <i className="fas fa-shopping-bag" />
+                        <i className="fas fa-shopping-cart" />
                         Beli
                       </a>
                     </div>
@@ -118,7 +135,7 @@ const IndexPage = data => (
     <Banner BannerData={data.data.allContentfulHeaderBanner.edges} />
     <div className="container">
       <div className="text-center">
-        <h2 className="with-underline">Barang Favorit <span role="img" aria-label="Sparkling-heart">💖</span></h2>
+        <h2 className="with-underline">Barang Favorit <span role="img" aria-label="Sparkling-heart">❤️</span></h2>
       </div>
       <IndexPost data={data} />
     </div>

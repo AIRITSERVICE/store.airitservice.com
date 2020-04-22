@@ -16,6 +16,7 @@ const ProductDetails = data => (
         <div>
         </div>
         <div className="Product-Screenshot">
+        <h2>{data.data.contentfulProduct.name}</h2>
           {data.data.contentfulProduct.productMorePhotos === null ? (
             <div className="no-image">No Image</div>
           ) : (
@@ -36,7 +37,6 @@ const ProductDetails = data => (
               </TabList>
             </Tabs>
           )}
-        <h2>{data.data.contentfulProduct.name}</h2>
         </div>
         <StarRatingComponent
           name="rate1"
@@ -65,8 +65,18 @@ const ProductDetails = data => (
               data-item-name={data.data.contentfulProduct.name}
               data-item-url={`/`}
             >
-              <i className="fas fa-shopping-bag" />
+              <i className="fas fa-shopping-cart" />
               Beli
+            </a>
+            &nbsp;
+            <a                  
+              href={`/cara-pembayaran`}
+              className="Product method-payment"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fas fa-shopping-bag" />
+              Cara Pembayaran
             </a>
           </div>
         </div>
