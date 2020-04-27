@@ -115,7 +115,7 @@ export const query = graphql`
       }
       productMorePhotos {
         id
-        fixed(width: 1120, height: 600) {
+        fixed(width: 600, height: 600) {
           src
         }
       }

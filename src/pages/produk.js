@@ -58,7 +58,7 @@ class IndexPost extends React.Component {
                     {items.node.image === null ? (
                       <div className="no-image">No Image</div>
                     ) : (
-                      <Img sizes={items.node.image.fixed} />
+                      <Img sizes={items.node.image.fluid} />
                     )}
                   </Link>
 
@@ -77,7 +77,7 @@ class IndexPost extends React.Component {
                           data-item-image={
                             items.node.image === null
                               ? ""
-                              : items.node.image.fixed.src
+                              : items.node.image.fluid.src
                           }
                           data-item-name={items.node.name}
                           data-item-url={`/`}
@@ -129,11 +129,14 @@ query StoreQuery {
         slug
         rating
         image {
-          fixed(width: 1000, height: 500) {
-            width
-            height
+          fluid(maxWidth: 1000) {
+            base64
+            aspectRatio
             src
             srcSet
+            srcWebp
+            srcSetWebp
+            sizes
           }
         }
         price
