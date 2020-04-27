@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import instagramIcon from "../images/instagram-icon-png-white-1.jpg";
+
 
 class Footer extends React.Component {
   render() {
@@ -27,11 +27,11 @@ class Footer extends React.Component {
               <section id="nav_menu-8" className="widget widget_nav_menu">
                 <div className="menu-secondary-container">
                   <ul id="menu-main" className="menu">
-                    <li>
+                    {/* <li>
                       <a href="https://www.instagram.com/airitservice/">
                         <img src={instagramIcon} alt="Instagram icon" height={40} width={40} />
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </section>
