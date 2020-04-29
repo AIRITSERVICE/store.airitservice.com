@@ -38,10 +38,16 @@ class Checkout extends Component {
               </div>
               <div>
                 <label>Alamat Lengkap: 
-                <textarea type="text" name="address" /></label>
+                <textarea type="text" name="address" placeholder="Jalan, Kota, Kecamatan, Kelurahan, Kode Pos" /></label>
+              </div>
+              <hr></hr>
+              <div>
+              <label>Catatan Pembeli
+                <textarea type="text" name="buyer notes" fie /></label>
               </div>
               <div>
-                <button type="submit">Kirim</button>
+              <p class="text-center">Dengan ini Anda menyetujui <a href="/syarat-dan-ketentuan" > Syarat dan Ketentuan</a><input type="checkbox" name="checkbox" checked="checked" /></p>
+                <button type="submit" value="Submit">Kirim</button>
               </div>
             </form>
           </div>

@@ -19,6 +19,9 @@ class Footer extends React.Component {
                       <Link to="/kontak">Kontak</Link>
                     </li>
                     <li>
+                      <Link to="/syarat-dan-ketentuan">Syarat dan Ketentuan</Link>
+                    </li>
+                    <li>
                       <Link to="/copyright">Copyright</Link>
                     </li>
                   </ul>
