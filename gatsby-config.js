@@ -1,7 +1,7 @@
 var dotenv = require("dotenv")
 dotenv.config()
 
-const { spaceId, accessToken, snipcart } = process.env
+const { spaceId, accessToken, snipcart, } = process.env
 
 module.exports = {
   siteMetadata: {
@@ -32,6 +32,13 @@ module.exports = {
         display: `minimal-ui`
       },
     },
+      {
+        resolve: `gatsby-plugin-google-analytics`,
+        options: {
+          // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+          trackingId: "UA-151639144-2",
+        },
+      },
     {
       resolve: "gatsby-source-contentful",
       options: {
