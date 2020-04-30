@@ -88,13 +88,13 @@ class IndexPost extends React.Component {
                         </a>
                         &nbsp;
                       <a                  
-                        href={`/cara-pembayaran`}
+                        href={items.node.slug}
                         className="Product method-payment"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
                         <i className="fas fa-shopping-bag" />
-                        Cara Pembayaran
+                        Lihat Produk
                       </a>
                       </div>
                     </div>

@@ -43,6 +43,15 @@ const ProductCategory = data => (
                 <div className="row">
 
                   <div className="col-sm-12 text-right align-self-center">
+                  <a                  
+                      href={items.node.slug}
+                      className="Product method-payment"
+                      rel="noopener noreferrer"
+                      >
+                      <i className="fas fa-shopping-bag" />
+                      Lihat Produk
+                      </a>
+                      &nbsp;
                     <a                      
                       href={`/checkout`}
                       className="Product snipcart-add-item"
@@ -60,16 +69,6 @@ const ProductCategory = data => (
                       <i className="fas fa-shopping-cart" />
                       Beli
                     </a>
-                    &nbsp;
-                    <a                  
-                      href={`/cara-pembayaran`}
-                      className="Product method-payment"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      >
-                      <i className="fas fa-shopping-bag" />
-                      Cara Pembayaran
-                      </a>
                   </div>
                 </div>
               </div>

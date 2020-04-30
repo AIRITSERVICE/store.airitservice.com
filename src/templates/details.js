@@ -1,6 +1,6 @@
 import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import StarRatingComponent from "react-star-rating-component";
+// import StarRatingComponent from "react-star-rating-component";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import { graphql } from "gatsby";
@@ -38,11 +38,14 @@ const ProductDetails = data => (
             </Tabs>
           )}
         </div>
-        <StarRatingComponent
+        {/* <StarRatingComponent
           name="rate1"
           starCount={5}
           value={data.data.contentfulProduct.rating}
-        />
+        /> */}
+        <div class="col-md-6">
+         
+        </div>
         <div className="row buynowinner">
 {/*          <div className="col-sm-2">
             <span className="price">
@@ -50,6 +53,16 @@ const ProductDetails = data => (
             </span>
           </div>*/}
           <div className="col-sm-10 text-left">
+          <a                  
+              href={`/cara-pembayaran`}
+              className="Product method-payment"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fas fa-shopping-bag" />
+              Cara Pembayaran
+            </a>
+            &nbsp;
             <a
               href={`/checkout`}
               className="Product snipcart-add-item"
@@ -68,18 +81,9 @@ const ProductDetails = data => (
               <i className="fas fa-shopping-cart" />
               Beli
             </a>
-            &nbsp;
-            <a                  
-              href={`/cara-pembayaran`}
-              className="Product method-payment"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fas fa-shopping-bag" />
-              Cara Pembayaran
-            </a>
           </div>
         </div>
+        {/* <p><u>Untuk saat ini seluruh pengiriman menggunakan JNE, </u><a href="https://www.jne.co.id/id/beranda">Cek ongkir!</a></p> */}
         <div
           dangerouslySetInnerHTML={{
             __html:

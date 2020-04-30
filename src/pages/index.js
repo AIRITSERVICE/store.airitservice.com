@@ -81,9 +81,8 @@ class IndexPost extends React.Component {
                   <div className="row">
                     <div className="col-sm-12 align-self-center">
                     <a                  
-                        href={`/cara-pembayaran`}
+                        href={items.node.slug}
                         className="Product method-payment"
-                        target="_blank"
                         rel="noopener noreferrer"
                         data-item-id={items.node.slug}
                         data-item-price={items.node.price}
@@ -96,7 +95,7 @@ class IndexPost extends React.Component {
                         data-item-url={`/`}
                       >
                         <i className="fas fa-shopping-bag" />
-                        Cara Pembayaran
+                        Lihat produk
                       </a>
                       &nbsp;
                       <a                  
