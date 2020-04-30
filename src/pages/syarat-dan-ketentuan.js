@@ -46,6 +46,13 @@ class termsofservice extends React.Component {
                 <ol>Instagram : <b>airitservice</b></ol>
                 <ol>Email: <b>airitservice19@gmail.com</b></ol>
                 </p>
+                <br></br>
+                <ol>*Gambar hanya ilustrasi, versi produk dapat berbeda tergantung kebijakan distributor, namun tidak mengurangi spesifikasi dan fungsi</ol>
+                <ol>*Spesifikasi lengkap dapat dicek melalui website resmi masing- masing produk.</ol>
+                <ol>*jika ada request cantumkan pada keterangan saat order. Jika tidak maka unit kami kirim secara random</ol>
+                <ol>*Kerusakan dan kehilangan saat pengiriman diluar tanggung jawab kami.</ol>
+                <ol>*Barang yang sudah dibeli tidak dapat ditukar atau di kembalikan.</ol>
+                <ol>*Simpan dus dan invoice pembelian untuk garansi.</ol>
                 <div>
                 <h1>Pembayaran</h1>
                 <hr/>
