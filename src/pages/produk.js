@@ -9,9 +9,8 @@ class IndexPost extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      NoOfPost: 6,
-      contactPhone: "088291046883"
-    }
+      NoOfPost: 6
+    };
     this.handleScroll = this.handleScroll.bind(this)
   }
 
@@ -69,6 +68,16 @@ class IndexPost extends React.Component {
                     <div className="row">
 
                       <div className="col-sm-12 text-right align-self-center">
+                      <a                  
+                        href={items.node.slug}
+                        className="Product method-payment"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fas fa-shopping-bag" />
+                        Lihat Produk
+                      </a>
+                      &nbsp;
                         <a
                           href={`/checkout`}
                           className="Product snipcart-add-item"
@@ -86,16 +95,6 @@ class IndexPost extends React.Component {
                           <i className="fas fa-shopping-cart" />
                           Beli
                         </a>
-                        &nbsp;
-                      <a                  
-                        href={items.node.slug}
-                        className="Product method-payment"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i className="fas fa-shopping-bag" />
-                        Lihat Produk
-                      </a>
                       </div>
                     </div>
                   </div>
@@ -110,7 +109,7 @@ class IndexPost extends React.Component {
 
 const IndexPage = data => (
   <Layout>
-    <SEO title="Produk" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Produk" keywords={[`gatsby`, `ecommerce`, `react`]} />
     <div className="container store-page">
       <IndexPost data={data} />
     </div>
