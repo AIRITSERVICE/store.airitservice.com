@@ -13,13 +13,10 @@ const Countdown = ({ data }) =>  {
         <div className="container">
           <div className="countdown-inner">
             <h2 className="with-underline">{data.title}</h2>
-            <span className="date">Limit Time: </span>
             <span className="date">
-              <strong>
-                <i className="fas fa-clock" /> {date}
-              </strong>
+
             </span>
-            <Link to="/produk">Buy Now!</Link>
+            <Link to="/produk">Beli sekarang!</Link>
           </div>
         </div>
       </div>

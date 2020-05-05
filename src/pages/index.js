@@ -4,60 +4,13 @@ import Img from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Banner from "../components/banner"
-import Countdown from "../components/countdown"
+// import Countdown from "../components/countdown"
 import { graphql } from "gatsby"
 
-class CategoriesPost extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      contactPhone: "088291046883"
-    }
-  }
-
-
-  render() {
-    const { data } = this.props
-
-    return (
-      <Fragment>
-        <div className="row product-main">
-          {data.data.allContentfulProductCategories.edges.map(items => (
-            <div
-              className="Catalogue__item col-sm-12 col-md-6 col-lg-4"
-              key={items.node.id}
-            >
-              <div className="details_List">
-                {items.node.image === null ? (
-                  <div className="no-image">No Image</div>
-                ) : (
-                  <Img sizes={items.node.image.fluid} />
-                )}
-                <div className="details_inner">
-                  <h2>
-                    <Link to={`/${items.node.slug}`}>{items.node.name}</Link>
-                  </h2>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </Fragment>
-    )
-  }
-}
 
 class IndexPost extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      contactPhone: "088291046883"
-    }
-  }
-
   render() {
-    const { data } = this.props
-
+    const { data } = this.props;
     return (
       <Fragment>
         <div className="row product-main">
@@ -128,9 +81,41 @@ class IndexPost extends React.Component {
   }
 }
 
+// Categories section
+class CategoriesPost extends React.Component {
+  render() {
+    const { data } = this.props;
+    return (
+      <Fragment>
+        <div className="row product-main">
+          {data.data.allContentfulProductCategories.edges.map(items => (
+            <div
+              className="Catalogue__item col-sm-12 col-md-6 col-lg-4"
+              key={items.node.id}
+            >
+              <div className="details_List">
+                {items.node.image === null ? (
+                  <div className="no-image">No Image</div>
+                ) : (
+                  <Img sizes={items.node.image.fluid} />
+                )}
+                <div className="details_inner">
+                  <h2>
+                    <Link to={`/${items.node.slug}`}>{items.node.name}</Link>
+                  </h2>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </Fragment>
+    )
+  }
+}
+
 const IndexPage = data => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Home" keywords={[`gatsby`, `ecommerce`, `react`]} />
     <Banner BannerData={data.data.allContentfulHeaderBanner.edges} />
     <div className="container">
       <div className="text-center">
@@ -155,8 +140,8 @@ const IndexPage = data => (
           Kontak kami
         </Link>
       </div>
-    </div> */}
-    <Countdown data={data.data.contentfulDealCountDown} />
+    </div>
+     <Countdown data={data.data.contentfulDealCountDown} /> */}
   </Layout>
 )
 
@@ -164,7 +149,7 @@ export default IndexPage
 
 export const query = graphql`
   query AboutQuery {
-    allContentfulProduct(limit: 6, sort: { fields: createdAt, order: DESC }) {
+    allContentfulProduct(limit: 6, sort: { fields: name, order: DESC }) {
       edges {
         node {
           id
@@ -225,7 +210,7 @@ export const query = graphql`
       date(formatString: "D MMMM, YYYY")
     }
 
-    allContentfulProductCategories {
+    allContentfulProductCategories(limit: 3, sort: { fields: name, order: ASC }) {
       edges {
         node {
           name
