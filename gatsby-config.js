@@ -1,7 +1,7 @@
 var dotenv = require("dotenv")
 dotenv.config()
 
-const { spaceId, accessToken, snipcart, } = process.env
+const { spaceId, accessToken, } = process.env
 
 module.exports = {
   siteMetadata: {
@@ -29,7 +29,8 @@ module.exports = {
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
-        display: `minimal-ui`
+        display: `minimal-ui`,
+        icon: `src/images/favicon.png`,
       },
     },
       {
@@ -44,13 +45,6 @@ module.exports = {
       options: {
         spaceId,
         accessToken
-      },
-    },
-    {
-      resolve: "gatsby-plugin-snipcart",
-      options: {
-        apiKey: snipcart,
-        autopop: true,
       },
     },
   ],
