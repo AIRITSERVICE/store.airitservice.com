@@ -6,7 +6,7 @@ const { spaceId, accessToken, } = process.env
 module.exports = {
   siteMetadata: {
     title: `AIR IT STORE - Empower Your Productivity`,
-    description: `Barang Elektronik dan Aksesoris Komputer/Laptop`,
+    description: `Jual Barang Elektronik dan Aksesoris Komputer/Laptop`,
     author: `@B4Lee`,
   },
   plugins: [
