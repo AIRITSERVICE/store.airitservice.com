@@ -18,7 +18,7 @@ class termsofservice extends React.Component {
                 <p>
                 <ol>
                     <li>
-                    AIR IT STORE selalu berusaha untuk mencantumkan harga yang terbaru. Namun untuk menyakinkan harga terakhir, kami sarankan menghubungi Online Support atau via e-mail untuk mendapatkan harga terbaru. 
+                    AIR IT STORE selalu berusaha untuk mencantumkan harga yang terbaru. Namun untuk menyakinkan harga terakhir, kami sarankan menghubungi Online Support untuk mendapatkan harga terbaru. 
                     Harga bisa berubah sewaktu-waktu tanpa pemberitahuan sebelumnya.
                     </li>
                     <li>
@@ -31,6 +31,10 @@ class termsofservice extends React.Component {
                     AIR IT Store berusaha secara penuh untuk memberikan informasi secara lengkap terhadap produk maupun informasi yang ada, akan tetapi dengan segala keterbatasan, 
                     dengan segala hormat AIR IT STORE tidak menjamin  akan ketepatan data tersebut, termasuk spesifikasi produknya.
                     </li>
+                <li>Gambar hanya ilustrasi, versi produk dapat berbeda tergantung kebijakan distributor, namun tidak mengurangi spesifikasi dan fungsi</li>
+                <li>jika ada request cantumkan pada keterangan saat order. Jika tidak maka unit kami kirim secara random</li>
+                <li>Kerusakan dan kehilangan saat pengiriman diluar tanggung jawab kami.</li>
+                <li>Simpan dus dan invoice pembelian untuk garansi.</li>
                 </ol>
                 </p>
                 </div>
@@ -41,18 +45,15 @@ class termsofservice extends React.Component {
                 Catat daftar produk yang ingin dibeli, kemudian hubungi kami mengenai informasi lengkap pemesanan beserta keterangan garansi melalui Via Telepon, WhatsApp dan Online Support
                 Anda dapat menghubungi Costumer Services kami melalui kontak yang ada dibawah ini.<br></br>
                 <br></br>
-                <ol>Telepon   : <b>0882-9104-6883</b></ol>
-                <ol>Whatsapp  : <b>0818-0717-5316 || 0882-9104-6883</b></ol>
-                <ol>Instagram : <b>airitservice</b></ol>
-                <ol>Email: <b>airitservice19@gmail.com</b></ol>
+                <ul>
+                <li>Telepon   : <b>0882-9104-6883</b></li>
+                <li>Whatsapp  : <b>0818-0717-5316 || 0882-9104-6883</b></li>
+                <li>Instagram : <b>airitservice</b></li>
+                <li>Email: <b>airitservice19@gmail.com</b></li>
+                </ul>
                 </p>
                 <br></br>
-                <ol>*Gambar hanya ilustrasi, versi produk dapat berbeda tergantung kebijakan distributor, namun tidak mengurangi spesifikasi dan fungsi</ol>
-                <ol>*Spesifikasi lengkap dapat dicek melalui website resmi masing- masing produk.</ol>
-                <ol>*jika ada request cantumkan pada keterangan saat order. Jika tidak maka unit kami kirim secara random</ol>
-                <ol>*Kerusakan dan kehilangan saat pengiriman diluar tanggung jawab kami.</ol>
-                <ol>*Barang yang sudah dibeli tidak dapat ditukar atau di kembalikan.</ol>
-                <ol>*Simpan dus dan invoice pembelian untuk garansi.</ol>
+
                 <div>
                 <h1>Pembayaran</h1>
                 <hr/>
