@@ -1,7 +1,17 @@
 # store.airitservice.com
 
 
-Indonesia Ecommerce Website Template built with GatsbyJS and Contentful
+> Indonesia Ecommerce Website Template built with GatsbyJS and Contentful
+
+
+## 📘 Tech Stack
+
+We use a variety of web services to complement the needs of ecommerce sites.
+
+- **[Gatsby](https://gatsbyjs.org)**: Statically build product pages and handle cart/checkout logic.
+- **[Netlify Forms](https://www.netlify.com/products/forms/)**: Deliver order received and dispatched email notifications to customers.
+- **[Contentful](https://www.contentful.com/)**: Content Management System for deliver content/product
+
 
 
 ## 🚀 Quick start
@@ -23,10 +33,10 @@ Indonesia Ecommerce Website Template built with GatsbyJS and Contentful
       contentful space --space-id <CONTENTFUL_SPACE_ID> import --content-file oneshopper.json
       ```
       
-      Checkout my Author blog how to Import and Export data from ContentFul
-      
-      [How to Import and Export data From Contentful](https://rohitgupta.design/import-and-export-data-with-contentful-cli)
+      Checkout the Author blog [How to Import and Export data From Contentful](https://rohitgupta.design/import-and-export-data-with-contentful-cli)
 
+      
+      
   3.  **Start developing.**
 
       Navigate into your new site’s directory and start it up.
