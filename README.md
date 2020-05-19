@@ -18,12 +18,7 @@ We use a variety of web services to complement the needs of ecommerce sites.
 
   1.  **Setup this site.**
 
-      Use the Gatsby CLI to Clone this site.
-
-      ```sh
-      # Clone this Repositories
-      gatsby new airitstore https://github.com/AIRITSERVICE/store.airitservice.com.git
-      ```
+      Clone/Download this Repositories
 
   2.  **Setup Contentful Models**
 
@@ -58,6 +53,3 @@ We use a variety of web services to complement the needs of ecommerce sites.
   5.  **Open the source code and start editing!**
 
       Your site is now running at `http://localhost:8000`!
-
-      _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
-
