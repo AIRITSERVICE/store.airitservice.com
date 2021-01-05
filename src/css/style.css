@@ -13,7 +13,7 @@
 .product-details .gatsby-image-wrapper{max-height:500px;}
 
 /* header css */
-header.site-header{width:100%;background:#333333;z-index:9;padding:20px 0 0 0;}
+header.site-header{width:100%;background:#034694;z-index:9;padding:20px 0 0 0;}
 ul.navbar-nav.mr-auto li{margin-bottom:0;}
 main{margin:0;}
 .header-cart{width:80px;}
@@ -40,7 +40,7 @@ header nav ul.navbar-nav li a{color:#fff;}
 }
 
 /* header css */
-footer.site-footer{background:#333;padding:0;text-align:center;}
+footer.site-footer{background:#034694;padding:0;text-align:center;}
 footer.site-footer *{color:#fff;}
 .no-image{height:200px;background:#ef3d5675;display:flex;justify-content:center;flex-direction:column;text-align:center;color:#fff;text-shadow:1px 1px 5px #000;}
 .snipcart-add-item i.fas{margin-right:8px;}
