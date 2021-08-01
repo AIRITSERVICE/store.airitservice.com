@@ -19,8 +19,7 @@ class About extends React.Component {
                   <p>
                   <ol>
                   <li>Silahkan konfirmasi stok terlebih dahulu, Melalui: </li>
-                  <ol>Telepon   : <b>0882-9104-6883</b></ol>
-                  <ol>Whatsapp  : <b>0818-0717-5316 || 0882-9104-6883</b></ol>
+                  <ol>Whatsapp  : <b>0818-0717-5316 / 0882-9104-6883</b></ol>
                   <ol>Line      : <b>bale404</b></ol>
                   <ol>Instagram : <b>airitservice</b></ol>
                   <br></br>
