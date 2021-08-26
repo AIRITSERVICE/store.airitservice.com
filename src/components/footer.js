@@ -12,18 +12,24 @@ class Footer extends React.Component {
               <section id="nav_menu-8" className="widget widget_nav_menu">
                 <div className="menu-main-container">
                   <ul id="menu-main" className="menu">
+                  <li>
+                      <Link to="/">Home</Link>
+                    </li>
                     <li>
                       <Link to="/produk">Produk</Link>
+                    </li>
+                    <li>
+                      <Link to="/cara-pembayaran">Cara Pembayaran</Link>
                     </li>
                     <li>
                       <Link to="/kontak">Kontak</Link>
                     </li>
                     <li>
-                      <Link to="/syarat-dan-ketentuan">Syarat dan Ketentuan</Link>
+                      <Link to="#">Syarat dan Ketentuan</Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link to="/copyright">Copyright</Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </section>
