@@ -1,8 +1,8 @@
-# store.airitservice.com
+# store.airitservice.web.id
 
+> AIR IT Service Ecommerce Website built with GatsbyJS and Contentful
 
-> Indonesia Ecommerce Website Template built with GatsbyJS and Contentful
-
+![AIR IT STORE FLOWCHART](/Ecommerce%20Flowchart.jpg)
 
 ## 📘 Tech Stack
 
